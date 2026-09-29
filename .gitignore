@@ -1,0 +1,34 @@
+# Build artifacts
+bin/
+.buildozer/
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Windows
+*.exe
+*.dll
+*.bat~*
+
+# OS
+Desktop.ini
+Thumbs.db
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# User data / logs
+*.log
+crash.log
+
+# Big binaries you may still want to share via Releases (not in repo)
+*.apk

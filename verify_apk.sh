@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-DIST=/home/admin1234/PDF2Excel/.buildozer/android/platform/build-arm64-v8a/dists/pdf2excel
+DIST="${1:-$HOME/PDF2Excel/.buildozer/android/platform/build-arm64-v8a/dists/pdf2excel}"
 APK=$DIST/build/outputs/apk/debug/pdf2excel-debug.apk
 ls -la $APK
 cd /tmp && rm -rf apkx && mkdir -p apkx && cd apkx
